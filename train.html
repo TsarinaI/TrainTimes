@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- I'm confused, do I need both Bootstrap thingamajigs? Why is one a "script" tag and the other is a link tag? -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/javascript" href="assets/functionality.js">
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid my-jumbo">
+        <div class="container" id="jumbotron">
+            <h1>PAMDORA</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="card">
+            <div class="card-header">
+                Current Train Schedule
+            </div>
+            <div class="card-body">
+                    <!-- Stolen from employee pay rate activity -->
+                    <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Train Time</th>
+                                    <th scope="col">Destintion</th>
+                                    <th scope="col">Frequency (mins)</th>
+                                    <th scope="col">Next Arrival</th>
+                                    <th scope="col">Minutes Away</th>
+                                </tr>
+                            </thead>
+                            <tbody id="populateData">
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                </tr> 
+                                <!-- <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+                                </tr>  -->
+                            </tbody>
+                        </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
